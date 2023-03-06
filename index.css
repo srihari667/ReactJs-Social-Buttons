@@ -1,0 +1,70 @@
+/* Write your code here. */
+body {
+  margin: 0;
+}
+.bg-container {
+  height: 100vh;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: white;
+  font-family: "Bree Serif";
+  font-size: 32px;
+  font-weight: bold;
+}
+.likeButton {
+  color: white;
+  background-color: #eab308;
+  border-radius: 12px;
+  border-width: 0px;
+  padding: 5px;
+  height: 40px;
+  width: 70px;
+  margin: 10px;
+}
+.commentButton {
+  color: black;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border-width: 0px;
+  padding: 5px;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+.shareButton {
+  color: white;
+  background-color: #1d4ed8;
+  border-radius: 12px;
+  border-width: 0px;
+  padding: 5px;
+  height: 40px;
+  width: 70px;
+  margin: 10px;
+}
+@media (max-width: 767px) {
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+  }
+}
